@@ -1,0 +1,40 @@
+.article-link {
+    text-decoration: none;
+    display: block;
+}
+
+.article-link:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.article-card-preview {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: .25rem;
+    transition: box-shadow .2s ease-in-out;
+}
+
+.article-card-preview:hover {
+    box-shadow: 0 0 1rem var(--shadow-color);
+}
+
+.article-card-preview:hover .title {
+    color: var(--link-main);
+    transition: color .2s ease-in-out;
+}
+
+.article-card-preview .title {
+    color: var(--text-main);
+    margin-bottom: 1rem;
+}
+
+.article-card-preview .preview {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.article-card-preview .date {
+    color: var(--text-secondary);
+    text-align: right;
+}

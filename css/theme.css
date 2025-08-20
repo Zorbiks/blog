@@ -1,0 +1,17 @@
+/* Colorscheme */
+:root {
+    --text-main: #eee;
+    --text-secondary: #999;
+
+    --primary-color: hsl(103, 31%, 67%);
+
+    --bg-main: hsl(227, 31%,8%);
+    --bg-secondary: hsl(227, 31%,12%);
+
+    --link-main: hsl(103, 31%, 67%);
+    --link-hover: hsl(103, 31%, 60%);
+    --link-active: hsl(103, 31%, 50%);
+    --link-visited: hsl(103, 31%, 50%);
+
+    --shadow-color: rgba(255, 255, 255, .25)
+}

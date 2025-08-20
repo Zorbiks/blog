@@ -1,0 +1,66 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg-main);
+}
+
+a {
+    color: var(--link-main)
+}
+
+a:hover {
+    color: var(--link-hover)
+
+}
+
+a:active {
+
+    color: var(--link-active)
+
+}
+
+a:visited {
+    color: var(--link-visited)
+
+}
+
+.container {
+    max-width: 720px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: var(--bg-secondary);
+    padding: 1rem 0;
+}
+
+nav h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav .logo {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+main {
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: var(--bg-secondary);
+    padding: 1rem 0;
+}
+
+footer .copyright {
+    text-align: center;
+}

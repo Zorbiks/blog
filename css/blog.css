@@ -1,0 +1,21 @@
+article .date {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+article .blog-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+article .thumbnail-wrapper img {
+    display: inline-block;
+    width: 100%;
+    border-radius: .25rem;
+}
+
+article p {
+    line-height: 1.6;
+    margin: 1rem 0;
+    text-indent: 2rem;
+}
