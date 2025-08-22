@@ -9,6 +9,8 @@ body {
     font-family: sans-serif;
     color: var(--text-main);
     background-color: var(--bg-main);
+        background-image: url("/images/background.png");
+    background-blend-mode: screen;
 }
 
 a {
@@ -32,7 +34,7 @@ a:visited {
 }
 
 .container {
-    max-width: 720px;
+    max-width: 800px;
     padding: 0 1rem;
     margin: 0 auto;
 }

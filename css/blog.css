@@ -1,3 +1,27 @@
+main {
+    margin: 4rem 0;
+}
+
+main .back-btn {
+    color: var(--text-secondary);
+}
+
+main .back-btn:hover {
+    color: var(--text-main);
+}
+
+article {
+    background-color: var(--bg-main);
+    padding: 2rem;
+}
+
+@media (max-width: 500px) {
+    article {
+        background-color: var(--bg-main);
+        padding: 2rem .5rem;
+    }
+}
+
 article .date {
     color: var(--text-secondary);
     margin-bottom: 1rem;
@@ -10,6 +34,8 @@ article .blog-title {
 
 article .thumbnail-wrapper img {
     display: inline-block;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
     width: 100%;
     border-radius: .25rem;
 }
