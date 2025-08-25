@@ -9,7 +9,7 @@ body {
     font-family: sans-serif;
     color: var(--text-main);
     background-color: var(--bg-main);
-        background-image: url("/images/background.png");
+    background-image: url("/images/background.png");
     background-blend-mode: screen;
 }
 
@@ -19,18 +19,15 @@ a {
 
 a:hover {
     color: var(--link-hover)
-
 }
 
 a:active {
 
     color: var(--link-active)
-
 }
 
 a:visited {
     color: var(--link-visited)
-
 }
 
 .container {
@@ -39,9 +36,24 @@ a:visited {
     margin: 0 auto;
 }
 
+a.back-btn {
+    text-decoration: none !important;
+    color: var(--text-secondary);
+}
+
+a.back-btn:hover {
+    color: var(--text-main);
+}
+
 nav {
     background-color: var(--bg-secondary);
     padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav h1 {
@@ -52,6 +64,39 @@ nav h1 {
 nav .logo {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+nav .links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav .links a {
+    position: relative;
+    text-decoration: none;
+    padding: 1rem .25rem;
+    color: var(--text-secondary);
+    transition: color .25s ease-in-out;
+}
+
+nav .links a:hover {
+    color: var(--text-main);
+}
+
+nav .links a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width .25s ease-in-out;
+}
+
+nav .links a:hover::before {
+    width: 100%;
 }
 
 main {

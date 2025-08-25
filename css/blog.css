@@ -2,14 +2,6 @@ main {
     margin: 4rem 0;
 }
 
-main .back-btn {
-    color: var(--text-secondary);
-}
-
-main .back-btn:hover {
-    color: var(--text-main);
-}
-
 article {
     background-color: var(--bg-main);
     padding: 2rem;
@@ -17,7 +9,6 @@ article {
 
 @media (max-width: 500px) {
     article {
-        background-color: var(--bg-main);
         padding: 2rem .5rem;
     }
 }
